@@ -53,11 +53,12 @@ module.exports = {
       backgroundColor: {
         'black-overlay': 'rgba(0, 0, 0, 0.25)',
       },
-      ringWidth: ['hover'],
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      ringWidth: ['hover'],
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
