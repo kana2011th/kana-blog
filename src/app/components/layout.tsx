@@ -21,7 +21,7 @@ export const AppLayout: React.FC = props => {
               </a>
             </Link>
           </div>
-          <div className="flex justify-center space-x-6 pt-4 text-gray-900 hover:text-gray-700 uppercase text-sm select-none">
+          <div className="flex justify-center space-x-6 pt-4 text-gray-900 hover:text-green-600 uppercase text-sm select-none">
             {headerNavationItems.map(item =>
               item.disabled ? (
                 <span
