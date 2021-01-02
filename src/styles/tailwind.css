@@ -11,11 +11,3 @@
   word-spacing: 0;
   font-size: 0;
 }
-
-a:link {
-  @apply text-green-600;
-}
-
-a:hover {
-  @apply underline;
-}
