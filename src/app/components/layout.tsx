@@ -36,15 +36,13 @@ export const AppLayout: React.FC = props => {
                   target="_blank"
                   rel="noopener noreferrer"
                   key={`navbar-header-${item.key}`}
-                  className="hover:text-green-600 hover:underline"
+                  className="hover:text-green-600"
                 >
                   {item.name}
                 </a>
               ) : (
                 <Link href={item.href} key={`navbar-header-${item.key}`}>
-                  <a className="hover:text-green-600 hover:underline">
-                    {item.name}
-                  </a>
+                  <a className="hover:text-green-600">{item.name}</a>
                 </Link>
               )
             )}
