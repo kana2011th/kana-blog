@@ -47,8 +47,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Niramit', ...defaultTheme.fontFamily.sans],
-        header: ['Kanit', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', 'Sarabun', ...defaultTheme.fontFamily.sans],
+        // header: ['Inter', 'Sarabun', ...defaultTheme.fontFamily.sans],
       },
       backgroundColor: {
         'black-overlay': 'rgba(0, 0, 0, 0.25)',
