@@ -46,8 +46,8 @@ export const Footer: React.FC = React.memo(props => {
         </nav> */}
         <div className="mt-8 flex justify-center space-x-6">
           <a
-            href="https://facebook.com/riffyblog"
-            className="text-gray-400 hover:text-gray-500"
+            href="https://facebook.com/kana2011thPage"
+            className="text-gray-400 hover:text-gray-700"
           >
             <span className="sr-only">Facebook</span>
             <svg
@@ -65,8 +65,8 @@ export const Footer: React.FC = React.memo(props => {
           </a>
 
           <a
-            href="https://github.com/rayriffy/rayriffy-blog-next"
-            className="text-gray-400 hover:text-gray-500"
+            href="https://github.com/kana2011th/kana-blog"
+            className="text-gray-400 hover:text-gray-700"
           >
             <span className="sr-only">GitHub</span>
             <svg
@@ -84,7 +84,7 @@ export const Footer: React.FC = React.memo(props => {
           </a>
         </div>
         <p className="mt-8 text-center text-base text-gray-500">
-          &copy; 2020 Phumrapee Limpianchop
+          &copy; 2020 Khanaphon "kana" Phaengtan
         </p>
       </div>
     </footer>
