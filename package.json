@@ -26,36 +26,36 @@
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/typography": "^0.3.1",
-    "autoprefixer": "^10.0.4",
+    "autoprefixer": "^10.1.0",
     "cors": "^2.8.5",
-    "dayjs": "^1.9.6",
+    "dayjs": "^1.9.8",
     "gatsby-remark-embed-video": "^3.0.10",
     "lodash": "^4.17.20",
     "next": "^10.0.4",
     "next-compose-plugins": "^2.2.1",
     "next-plugin-preact": "^3.0.3",
-    "postcss": "^8.1.10",
-    "preact": "^10.5.7",
+    "postcss": "^8.2.2",
+    "preact": "^10.5.8",
     "preact-render-to-string": "^5.1.12",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
-    "sitemap": "^6.3.3",
-    "tailwindcss": "^2.0.1",
-    "unist-util-select": "^3.0.2"
+    "sitemap": "^6.3.5",
+    "tailwindcss": "^2.0.2",
+    "unist-util-select": "^3.0.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@types/cors": "^2.8.8",
-    "@types/lodash": "^4.14.165",
+    "@types/lodash": "^4.14.167",
     "@types/node": "^14.14.10",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.2",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.3"
   }
 }
