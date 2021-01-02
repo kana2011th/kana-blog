@@ -53,7 +53,7 @@ module.exports = {
       backgroundColor: {
         'black-overlay': 'rgba(0, 0, 0, 0.25)',
       },
-      ringColor: ['hover'],
+      ringWidth: ['hover'],
     },
   },
   variants: {
