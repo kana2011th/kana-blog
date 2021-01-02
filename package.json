@@ -1,10 +1,10 @@
 {
-  "name": "rayriffy-blog-next",
+  "name": "kana-blog",
   "version": "1.0.0",
-  "description": "Next iteration of Riffy Blog",
+  "description": "Next iteration of kana2011th's Blog (based on rayriffy's blog)",
   "main": "index.js",
-  "repository": "git@github.com:rayriffy/rayriffy-blog-next",
-  "author": "Phumrapee Limpianchop <contact@rayriffy.com>",
+  "repository": "git@github.com:kana2011th/kana-blog",
+  "author": "Khanaphon kana Phaengtan <khwd.2007@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
