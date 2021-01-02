@@ -10,7 +10,7 @@ class NextDocument extends Document {
           <NextScript />
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-J24WPTD619"
+            src="https://www.googletagmanager.com/gtag/js?id=G-M7GME68708"
           ></script>
           <script
             dangerouslySetInnerHTML={{
@@ -19,7 +19,7 @@ class NextDocument extends Document {
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
     
-                gtag('config', 'G-J24WPTD619');
+                gtag('config', 'G-M7GME68708');
               `,
             }}
           />
