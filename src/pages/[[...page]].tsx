@@ -32,7 +32,7 @@ const Page: NextPage<Props> = props => {
           <div className="max-w-4xl mx-auto">
             <Link href={`/${featuredBlogPost.slug}`}>
               <a>
-                <div className="rounded-none sm:rounded-lg overflow-hidden relative">
+                <div className="rounded-none sm:rounded-lg overflow-hidden relative hover:ring ring-teal-500 ring-opacity-50">
                   <div className="absolute top-0 bottom-0 left-0 right-0 p-6 md:p-8 bg-black-overlay z-10 flex items-end">
                     <div className="space-y-0.5 md:space-y-2 text-white">
                       <span className="uppercase text-mediu md:text-lg">
@@ -66,7 +66,7 @@ const Page: NextPage<Props> = props => {
             <Link href={`/${blogPost.slug}`}>
               <a>
                 <div
-                  className="rounded-none sm:rounded-lg overflow-hidden shadow-lg"
+                  className="rounded-none sm:rounded-lg overflow-hidden shadow-lg hover:ring ring-teal-500 ring-opacity-50"
                   key={`blog-${blogPost.slug}`}
                 >
                   <Image

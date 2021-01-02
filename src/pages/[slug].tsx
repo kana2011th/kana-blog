@@ -32,7 +32,7 @@ const Page: NextPage<Props> = props => {
           ></video>
           <div className="pt-4 pb-8 px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl pt-2">กำลังโหลด</h1>
-            <div className="pt-6 prose prose-blue max-w-3xl mx-auto">
+            <div className="pt-6 prose prose-green max-w-3xl mx-auto">
               กำลังดึงข้อมูล...กรุณารอสักครู่
             </div>
           </div>
@@ -68,7 +68,7 @@ const Page: NextPage<Props> = props => {
                   <div className="flex flex-wrap space-x-2 space-y-2 pt-3">
                     {blogPost.categoryCollection.items.map(category => (
                       <span
-                        className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-blue-100 text-blue-800"
+                        className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-teal-100 text-teal-800"
                         key={`category-slug-${category.key}`}
                       >
                         {category.name}
@@ -77,7 +77,7 @@ const Page: NextPage<Props> = props => {
                   </div>
                 </div>
                 <article
-                  className="pt-6 prose prose-blue max-w-3xl mx-auto"
+                  className="pt-6 prose prose-teal max-w-3xl mx-auto"
                   dangerouslySetInnerHTML={{
                     __html: blogPost.content,
                   }}

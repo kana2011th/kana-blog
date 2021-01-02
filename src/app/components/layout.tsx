@@ -21,7 +21,7 @@ export const AppLayout: React.FC = props => {
               </a>
             </Link>
           </div>
-          <div className="flex justify-center space-x-6 pt-4 text-gray-900 hover:text-gray-700 uppercase text-sm select-none">
+          <div className="flex justify-center space-x-6 pt-4 text-gray-900 uppercase text-sm select-none">
             {headerNavationItems.map(item =>
               item.disabled ? (
                 <span
@@ -36,12 +36,13 @@ export const AppLayout: React.FC = props => {
                   target="_blank"
                   rel="noopener noreferrer"
                   key={`navbar-header-${item.key}`}
+                  className="hover:text-teal-600"
                 >
                   {item.name}
                 </a>
               ) : (
                 <Link href={item.href} key={`navbar-header-${item.key}`}>
-                  <a>{item.name}</a>
+                  <a className="hover:text-teal-600">{item.name}</a>
                 </Link>
               )
             )}

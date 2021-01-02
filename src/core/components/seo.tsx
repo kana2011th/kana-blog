@@ -12,15 +12,15 @@ interface Props {
 export const SEO: React.FC<Props> = props => {
   const {
     title,
-    description = 'The Nerdy Blogger',
-    image = 'https://blog.rayriffy.com/default.jpg',
+    description = 'thai northest developer blog',
+    image = 'https://blog.0002011.xyz/default.jpg',
     children,
   } = props
 
   const router = useRouter()
 
   const transformedTitle = useMemo(
-    () => (title ? `Riffy Blog · ${title}` : 'Riffy Blog'),
+    () => (title ? `kana2011th's Blog · ${title}` : `kana2011th's Blog`),
     [title]
   )
 
@@ -48,7 +48,7 @@ export const SEO: React.FC<Props> = props => {
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Niramit:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sarabun:wght@400;700&display=swap"
       />
 
       {children}
