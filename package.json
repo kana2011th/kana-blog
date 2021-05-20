@@ -31,7 +31,7 @@
     "dayjs": "^1.10.4",
     "gatsby-remark-embed-video": "^3.0.10",
     "lodash": "^4.17.20",
-    "next": "^10.0.5",
+    "next": "^10.2.2",
     "next-compose-plugins": "^2.2.1",
     "next-plugin-preact": "^3.0.3",
     "postcss": "^8.2.4",
